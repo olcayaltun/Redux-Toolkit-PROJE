@@ -1,13 +1,106 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+img {
+  border-radius: 15px 15px 0 0;
+  height: 300px;
+}
+.item {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: aquamarine;
+  gap: 30px;
+  padding: 10px;
+}
+.slc {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.inp {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.item {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.frm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+.editBtn {
+  position: absolute;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  top: 10px;
+  right: 0px;
+  display: flex;
+  gap: 5px;
+}
+.editBtn:first-child {
+  background-color: brown;
+}
+.das {
+  display: flex;
+
+  gap: 10px;
+}
+.pas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  color: aliceblue;
+  background-color: black;
+}
+.kas {
+  position: relative;
+}
+.fa {
+  background-color: aquamarine;
+}
+.tr {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.bt {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(243, 3, 3);
+}
+.ed {
+  background-color: #05a43f;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input {
+  height: 40px;
+  border-radius: 10px;
+  padding: 7px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+}
+button {
+  height: 40px;
+  border-radius: 10px;
+  padding: 7px;
+  border: none;
+  background-color: rgb(57, 57, 243);
+  color: antiquewhite;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+button:hover {
+  opacity: 0.5;
 }
